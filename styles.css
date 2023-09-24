@@ -1,0 +1,166 @@
+body{
+  background-color: #332C26;
+}
+h1{
+  text-align: center;
+  color:#4DE59A ;
+  font-size: 5rem;
+  text-shadow: 3px 0 red;
+  position: relative;
+  bottom: 70px;
+  padding-top:10px
+  
+}
+.scoreBoaurd>img{
+  position: relative;
+  left: 280px;
+  padding: 0px;
+}
+#omarScore{
+  font-size: 30px;
+  position: relative;
+  bottom: 209px;
+  left: 100px;
+  color:#34EA6B;
+}
+#amjadScore{
+  font-size: 30px;
+  position: relative;
+  bottom: 145px;
+  right: 160px;
+  color:#34EA6B;
+}
+#fisrt{
+
+  position: relative;
+  bottom: 52px;
+  left: 50px;
+  font-weight:900 ;
+  color: whitesmoke;
+}
+#second{
+  position: relative;
+  bottom: 85px;
+  right: 110px;
+  font-weight:900 ;
+  color: whitesmoke;
+}
+.scoreBoaurd{
+  padding: 0px;
+  height: 70px;
+  width: 100%;
+}
+.container{
+  position: relative;
+  left: 240px;
+  bottom: 80px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+
+}
+img{
+  width: 100px;
+  height: 100px;
+  
+  
+}
+
+p{
+  text-align: center;
+  color: #4DE59A ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+  position: relative;
+  bottom: 40px;
+  color:whitesmoke ;
+  font-size: 20px;
+  margin-top: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 0px ;
+}
+button{
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+  width: 100px;
+  color: #34EA6B;
+  background-color: black;
+  border-radius: 0%;
+  border: gray 1px solid;
+
+}
+.btttttn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2;
+  
+  
+}
+.scoreBoaurd{
+  position: relative;
+  bottom: 70px;
+  left: 10px;
+
+}
+@media (max-width:600px){
+  h1{
+    margin: 0%;
+    padding-top: 40px;
+  }
+  .container{
+   position: relative;
+   left: 110px;
+    height: 300px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .scoreBoaurd{
+    padding-top: 60px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+   justify-content: center;
+   
+  }
+  .btttttn{
+    padding-left: 70px;
+    margin-top: 20px;
+  }
+  #fisrt{
+    position: relative;
+    top: 5px;
+    left:170px;
+  }
+  #second{
+    position: relative;
+    bottom: -6px;
+    right:18px;
+  }
+  #amjadScore{
+    position: relative;
+    top: -19px;
+    right: 110px;
+  }
+  #omarScore{
+    position: relative;
+    top: -19px;
+    left: 125px;
+  }
+  footer{
+    display: inline-block;
+    font-weight: 900;
+  }
+}
+
+
+
+
